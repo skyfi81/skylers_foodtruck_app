@@ -25,7 +25,7 @@ Food Truck Finder is a web application that helps users discover all actively pe
 
 To deploy the application using Docker, ensure you have Docker and Docker Compose installed, and follow these steps:
 
-1. **Build and run the containers:**
+1. **Build and run the containers from root of project:**
 
    ```bash
    docker-compose up --build
@@ -35,7 +35,7 @@ To deploy the application using Docker, ensure you have Docker and Docker Compos
 2. **Access the application:**
 
 - **Backend:** 'http://localhost:5000'
-- **Frontend:** 'http//localhost:3000'
+- **Frontend:** 'http://localhost:3000'
 
 3. **Teardown application:**
 
