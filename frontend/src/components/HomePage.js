@@ -76,7 +76,7 @@ const HomePage = () => {
   const [highlightedTruckId, setHighlightedTruckId] = useState(null);
   const [search, setSearch] = useState('');
   const [error, setError] = useState('');
-  const userId = 'EsteeLauder'; // Replace with the actual user ID as needed
+  const userId = 'EsteeLauder';
 
   // Default markers in case the API is down
   const defaultMarkers = [
@@ -152,7 +152,8 @@ const HomePage = () => {
           >
             <Popup>
               <strong>{foodTruck.applicant}</strong><br />
-              {foodTruck.address}
+              {foodTruck.address}<br />
+              {foodTruck.fooditems}
             </Popup>
           </Marker>
         ))}

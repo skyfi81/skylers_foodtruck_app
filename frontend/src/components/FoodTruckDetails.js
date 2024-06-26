@@ -95,7 +95,7 @@ const FoodTruckDetails = () => {
   };
 
   const handleAddFavorite = () => {
-    axios.post(`${process.env.REACT_APP_API_URL}/favorites`, { user_id: 'user123', food_truck_id: id })
+    axios.post(`${process.env.REACT_APP_API_URL}/favorites`, { user_id: 'EsteeLauder', food_truck_id: id })
       .then(response => console.log('Favorite added:', response.data))
       .catch(error => console.error('Error adding favorite:', error));
   };
